@@ -1,8 +1,8 @@
 ## Logstash Docker based on passenger-base
 
-Dockerfile to build a logstasg docker image based on Phusion's [pasenger-base](http://phusion.github.io/baseimage-docker/).
+Dockerfile to build a logstash docker image based on Phusion's [baseimage-docker](http://phusion.github.io/baseimage-docker/).
 
-Includes a default logstash.conf that is meant to be overriden at runtime by mounting a volume with your own logstash.conf.
+Includes a default logstash.conf that is meant to be overridden at runtime by mounting a volume with your own logstash.conf.
 
 
 To build the image:

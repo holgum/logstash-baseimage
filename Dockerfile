@@ -1,6 +1,4 @@
-# Install logstash on passenger-base 
 FROM phusion/baseimage
-
 MAINTAINER  M.Holguin,  https://github.com/holgum
 
 # Use baseimage-docker's init system.
